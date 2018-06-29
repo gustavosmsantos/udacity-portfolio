@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+    font-weight: 100;
+}
+
+a:visited {
+    color: rgb(60, 60, 60);
+}
+
+body {
+    background-color: #e6f7ff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.website {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    width: 100%;
+}
+
+hr {
+    width: 100%;
+}
+
+.main-picture {
+    margin-top: 10px;
+}
+
+.featured-label {
+    width: 100%;
+    /* margin-top: 10px; */
+}
+
+.featured-project {
+    text-align: center;
+    width: calc((100% - 40px) / 3);
+    margin-right: 20px;
+    /* padding: 5px; */
+    line-height: 12pt;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.featured-project .inner-text-box {
+    padding: 0 15px;
+}
+
+.featured-project:last-of-type {
+    margin-right: 0;
+}
+
+.featured-project h4 {
+    line-height: 0;
+}
+
+.logo {
+    width: 100%;
+    text-align: center;
+}
+
+.idea-image {
+    width: 500px;
+    transform: rotateZ(-140deg);
+    opacity: 0.5;
+    position: fixed;
+    z-index: -1;
+    margin: -80px -80px 0;
+    right: 0;
+    top: 0;
+}
+
+.question-image {
+    width: 400px;
+    position: fixed;
+    z-index: -1;
+    opacity: 0.4;
+    left: 0;
+    bottom: 0;
+    margin-bottom: -60px;
+    margin-left: -50px;
+}
+
+@media screen and (max-width: 1000px) {
+    .idea-image {
+        width: 250px;
+        margin: -40px -40px 0;
+    }
+
+    .question-image {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .website {
+        max-width: 100vw;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .featured-project:first-of-type {
+        margin: 100px 0;
+    }
+
+    .featured-project {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+footer {
+    width: 100%;
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.presentation {
+    width: 100%;
+    text-align: right;
+    line-height: 100%;
+    line-height: 3pt;
+}
+
+.presentation h1 {
+    font-size: 30pt;
+}
+
+.presentation h2 {
+    font-weight: 100;
+}
+
+.featured-label h3 {
+    text-transform: uppercase;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    
+}
