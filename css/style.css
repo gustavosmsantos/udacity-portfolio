@@ -2,6 +2,24 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #e6f7ff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    width: 100%;
+}
+
+hr {
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 a {
     color: black;
     font-weight: 100;
@@ -9,11 +27,6 @@ a {
 
 a:visited {
     color: rgb(60, 60, 60);
-}
-
-body {
-    background-color: #e6f7ff;
-    font-family: 'Quicksand', sans-serif;
 }
 
 .website {
@@ -24,14 +37,6 @@ body {
 .flex {
     display: flex;
     flex-wrap: wrap;
-}
-
-header {
-    width: 100%;
-}
-
-hr {
-    width: 100%;
 }
 
 .main-picture {
@@ -46,7 +51,6 @@ hr {
     text-align: center;
     width: calc((100% - 40px) / 3);
     margin-right: 20px;
-    /* padding: 5px; */
     line-height: 12pt;
     background-color: rgba(255, 255, 255, 0.4);
 }
@@ -90,6 +94,32 @@ hr {
     margin-left: -50px;
 }
 
+footer {
+    width: 100%;
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.presentation {
+    width: 100%;
+    text-align: right;
+    line-height: 100%;
+    line-height: 3pt;
+}
+
+.presentation h1 {
+    font-size: 30pt;
+}
+
+.presentation h2 {
+    font-weight: 100;
+}
+
+.featured-label h3 {
+    text-transform: uppercase;
+}
+
+/* Media Queries */
 @media screen and (max-width: 1000px) {
     .idea-image {
         width: 250px;
@@ -117,34 +147,4 @@ hr {
         width: 100%;
         margin: 10px 0;
     }
-}
-
-footer {
-    width: 100%;
-    padding: 60px 30px;
-    text-align: center;
-}
-
-.presentation {
-    width: 100%;
-    text-align: right;
-    line-height: 100%;
-    line-height: 3pt;
-}
-
-.presentation h1 {
-    font-size: 30pt;
-}
-
-.presentation h2 {
-    font-weight: 100;
-}
-
-.featured-label h3 {
-    text-transform: uppercase;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
 }
